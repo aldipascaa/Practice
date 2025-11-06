@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>How_the_GC_Works</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    
+    <!-- GC Configuration Options - Uncomment to test different modes -->
+    
+    <!-- Server GC: Use multiple heaps and GC threads (one per core) -->
+    <!-- Better for server applications with high throughput requirements -->
+    <!-- <ServerGarbageCollection>true</ServerGarbageCollection> -->
+    
+    <!-- Background GC: Allows Gen2 collections to run concurrently with app -->
+    <!-- Reduces pause times but uses more CPU/memory -->
+    <!-- <ConcurrentGarbageCollection>true</ConcurrentGarbageCollection> -->
+    
+    <!-- Retain VM: Controls whether the GC returns memory to the OS -->
+    <!-- <RetainVMGarbageCollection>false</RetainVMGarbageCollection> -->
+  </PropertyGroup>
+
+</Project>
