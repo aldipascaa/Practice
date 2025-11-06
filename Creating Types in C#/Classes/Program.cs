@@ -18,6 +18,7 @@ namespace Classes
 
             // Start with the fundamentals - what makes a class tick
             DemonstrateBasicClasses();
+            Console.WriteLine("");
             
             // Fields - data containers
             DemonstrateFields();
