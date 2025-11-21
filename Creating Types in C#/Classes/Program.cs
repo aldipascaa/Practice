@@ -67,8 +67,8 @@ namespace Classes
             Console.WriteLine("1. Basic Classes - The Foundation:");
             
             // Create employee instances from our Employee class blueprint
-            var employee = new Employee("Alice Johnson", 28);
-            var manager = new Employee("Bob Smith", 35);
+            var employee = new Employee("", 155);
+            var manager = new Employee("Bob Smith", 200);
             
             Console.WriteLine($"  Employee: {employee.Name}, Age: {employee.Age}");
             Console.WriteLine($"  Manager: {manager.Name}, Age: {manager.Age}");

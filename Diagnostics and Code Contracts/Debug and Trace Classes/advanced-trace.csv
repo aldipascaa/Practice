@@ -1,0 +1,17 @@
+"Debug and Trace Classes",Information,0,"Application started - this goes to all listeners",,,,,"2025-11-21T03:56:53.1149017Z",,"   at System.Environment.get_StackTrace()
+   at System.Diagnostics.DelimitedListTraceListener.WriteFooter(TraceEventCache eventCache)
+   at System.Diagnostics.TraceInternal.TraceEvent(TraceEventType eventType, Int32 id, String format, Object[] args)
+   at Debug_and_Trace_Classes.AdvancedDebugTraceDemo.DemonstrateAllListenerTypes() in C:\Users\aldipasca\Documents\Bootcamp\Practice\Diagnostics and Code Contracts\Debug and Trace Classes\AdvancedDebugTraceDemo.cs:line 76
+   at Debug_and_Trace_Classes.Program.Main(String[] args) in C:\Users\aldipasca\Documents\Bootcamp\Practice\Diagnostics and Code Contracts\Debug and Trace Classes\Program.cs:line 53"
+"Debug and Trace Classes",Warning,0,"Configuration file missing - using defaults",,,,,"2025-11-21T03:56:53.1181899Z",,"   at System.Environment.get_StackTrace()
+   at System.Diagnostics.DelimitedListTraceListener.WriteFooter(TraceEventCache eventCache)
+   at System.Diagnostics.TraceInternal.TraceEvent(TraceEventType eventType, Int32 id, String format, Object[] args)
+   at Debug_and_Trace_Classes.AdvancedDebugTraceDemo.DemonstrateAllListenerTypes() in C:\Users\aldipasca\Documents\Bootcamp\Practice\Diagnostics and Code Contracts\Debug and Trace Classes\AdvancedDebugTraceDemo.cs:line 77
+   at Debug_and_Trace_Classes.Program.Main(String[] args) in C:\Users\aldipasca\Documents\Bootcamp\Practice\Diagnostics and Code Contracts\Debug and Trace Classes\Program.cs:line 53"
+"Debug and Trace Classes",Error,0,"Database connection failed - retrying",,,,,"2025-11-21T03:56:53.1188947Z",,"   at System.Environment.get_StackTrace()
+   at System.Diagnostics.DelimitedListTraceListener.WriteFooter(TraceEventCache eventCache)
+   at System.Diagnostics.TraceInternal.TraceEvent(TraceEventType eventType, Int32 id, String format, Object[] args)
+   at Debug_and_Trace_Classes.AdvancedDebugTraceDemo.DemonstrateAllListenerTypes() in C:\Users\aldipasca\Documents\Bootcamp\Practice\Diagnostics and Code Contracts\Debug and Trace Classes\AdvancedDebugTraceDemo.cs:line 78
+   at Debug_and_Trace_Classes.Program.Main(String[] args) in C:\Users\aldipasca\Documents\Bootcamp\Practice\Diagnostics and Code Contracts\Debug and Trace Classes\Program.cs:line 53"
+PERFORMANCE: Custom performance metric: 245ms
+SECURITY: User authentication successful

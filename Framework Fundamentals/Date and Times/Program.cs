@@ -169,7 +169,7 @@ namespace DateAndTimeHandling
             Console.WriteLine("=================================================");
 
             // Converting TimeSpan to string representation
-            TimeSpan duration = new TimeSpan(2, 30, 45); // 2 hours, 30 minutes, 45 seconds
+            TimeSpan duration = new TimeSpan(2, 3, 45); // 2 hours, 30 minutes, 45 seconds
             Console.WriteLine($"TimeSpan value: {duration}");
             Console.WriteLine($"ToString() result: '{duration.ToString()}'");
 

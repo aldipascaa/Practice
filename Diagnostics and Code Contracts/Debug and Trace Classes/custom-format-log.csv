@@ -1,0 +1,40 @@
+"Debug and Trace Classes";Information;0;"This message goes to the custom CSV listener with semicolon delimiter";;13184;;;"2025-11-21T03:56:52.4967549Z";;
+"Debug and Trace Classes";Information;0;"Starting data processing pipeline";;13184;;;"2025-11-21T03:56:52.5023859Z";;
+Processing 4 records
+Processing record: John,25,Engineer
+"Debug and Trace Classes";Information;0;"Successfully processed employee: John, Age: 25, Role: Engineer";;13184;;;"2025-11-21T03:56:52.5050180Z";;
+Processing record: Jane,30,Manager
+"Debug and Trace Classes";Information;0;"Successfully processed employee: Jane, Age: 30, Role: Manager";;13184;;;"2025-11-21T03:56:52.5057480Z";;
+Processing record: Bob,35,Developer
+"Debug and Trace Classes";Information;0;"Successfully processed employee: Bob, Age: 35, Role: Developer";;13184;;;"2025-11-21T03:56:52.5096755Z";;
+Processing record: Alice,28,Designer
+"Debug and Trace Classes";Information;0;"Successfully processed employee: Alice, Age: 28, Role: Designer";;13184;;;"2025-11-21T03:56:52.5105572Z";;
+"Debug and Trace Classes";Information;0;"Data processing pipeline completed";;13184;;;"2025-11-21T03:56:52.5110519Z";;
+Attempting to process file: valid-file.txt
+"Debug and Trace Classes";Information;0;"File processed successfully: valid-file.txt";;13184;;;"2025-11-21T03:56:52.5125767Z";;
+Attempting to process file: 
+   🔍 Debug note: Filename validation failed
+"Debug and Trace Classes";Error;0;"Exception in ProcessFile: ArgumentException: Filename cannot be null or empty (Parameter 'filename')";;13184;;;"2025-11-21T03:56:52.5148389Z";;
+Stack trace:    at Debug_and_Trace_Classes.DebuggingScenarios.ProcessFile(String filename) in C:\Users\aldipasca\Documents\Bootcamp\Practice\Diagnostics and Code Contracts\Debug and Trace Classes\DiagnosticUtilities.cs:line 319
+   at Debug_and_Trace_Classes.DebuggingScenarios.SimulateExceptionHandling() in C:\Users\aldipasca\Documents\Bootcamp\Practice\Diagnostics and Code Contracts\Debug and Trace Classes\DiagnosticUtilities.cs:line 297
+Attempting to process file: null
+   🔍 Debug note: Filename validation failed
+"Debug and Trace Classes";Error;0;"Exception in ProcessFile: ArgumentException: Filename cannot be null or empty (Parameter 'filename')";;13184;;;"2025-11-21T03:56:52.5549603Z";;
+Stack trace:    at Debug_and_Trace_Classes.DebuggingScenarios.ProcessFile(String filename) in C:\Users\aldipasca\Documents\Bootcamp\Practice\Diagnostics and Code Contracts\Debug and Trace Classes\DiagnosticUtilities.cs:line 319
+   at Debug_and_Trace_Classes.DebuggingScenarios.SimulateExceptionHandling() in C:\Users\aldipasca\Documents\Bootcamp\Practice\Diagnostics and Code Contracts\Debug and Trace Classes\DiagnosticUtilities.cs:line 297
+Attempting to process file: missing-file.txt
+"Debug and Trace Classes";Error;0;"Exception in ProcessFile: FileNotFoundException: File not found: missing-file.txt";;13184;;;"2025-11-21T03:56:52.5611536Z";;
+Stack trace:    at Debug_and_Trace_Classes.DebuggingScenarios.ProcessFile(String filename) in C:\Users\aldipasca\Documents\Bootcamp\Practice\Diagnostics and Code Contracts\Debug and Trace Classes\DiagnosticUtilities.cs:line 324
+   at Debug_and_Trace_Classes.DebuggingScenarios.SimulateExceptionHandling() in C:\Users\aldipasca\Documents\Bootcamp\Practice\Diagnostics and Code Contracts\Debug and Trace Classes\DiagnosticUtilities.cs:line 297
+Starting Fast Operation
+"Debug and Trace Classes";Information;0;"Performance test started: Fast Operation";;13184;;;"2025-11-21T03:56:52.5649251Z";;
+"Debug and Trace Classes";Information;0;"Performance test completed: Fast Operation took 58ms";;13184;;;"2025-11-21T03:56:52.6274691Z";;
+Starting Medium Operation
+"Debug and Trace Classes";Information;0;"Performance test started: Medium Operation";;13184;;;"2025-11-21T03:56:52.6283779Z";;
+"Debug and Trace Classes";Information;0;"Performance test completed: Medium Operation took 159ms";;13184;;;"2025-11-21T03:56:52.7882169Z";;
+Starting Slow Operation
+"Debug and Trace Classes";Information;0;"Performance test started: Slow Operation";;13184;;;"2025-11-21T03:56:52.7890364Z";;
+"Debug and Trace Classes";Information;0;"Performance test completed: Slow Operation took 307ms";;13184;;;"2025-11-21T03:56:53.0962129Z";;
+"Debug and Trace Classes";Warning;0;"Slow operation detected: Slow Operation took 307ms";;13184;;;"2025-11-21T03:56:53.0966888Z";;
+Memory before Memory Test: 306.960 bytes
+"Debug and Trace Classes";Information;0;"Memory usage for Memory Test: 4.016.472 bytes";;13184;;;"2025-11-21T03:56:53.1067159Z";;

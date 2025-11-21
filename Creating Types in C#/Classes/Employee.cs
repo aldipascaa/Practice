@@ -13,7 +13,7 @@ namespace Classes
         // Using _camelCase naming convention for private fields
         private string _name;
         private int _age;
-        private readonly DateTime _hireDate;  // readonly - can only be set in constructor
+        readonly DateTime _hireDate;  // readonly - can only be set in constructor
         private static int _totalEmployees = 0;      // Static field shared by all instances
         private static int _totalWorkHours = 0;      // Tracks total work across all employees
 
@@ -44,9 +44,12 @@ namespace Classes
         {
             get { return _name; }
             set 
-            { 
+            {
                 if (string.IsNullOrWhiteSpace(value))
-                    throw new ArgumentException("Name cannot be empty");
+                {
+                    Console.WriteLine("Name cannot be emply");
+                    //throw new ArgumentException("Name cannot be empty");
+                }
                 _name = value;
             }
         }
@@ -55,9 +58,10 @@ namespace Classes
         {
             get { return _age; }
             set 
-            { 
+            {
                 if (value < 0 || value > 150)
-                    throw new ArgumentException("Age must be between 0 and 150");
+                    Console.WriteLine($"Age must be between 0 and 150");
+                    //throw new ArgumentException("Age must be between 0 and 150");
                 _age = value;
             }
         }
